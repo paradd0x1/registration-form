@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Registration Form</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                font-family: consolas;
+            }
+
+            .main {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 12.5px;
+                min-height: 100vh;
+                color: linen;
+                background-color: rgb(20, 20, 20);
+            }
+
+            #back {
+                padding: 0.8em;
+                border-radius: 0.9rem;
+                font-weight: bold;
+                color: linen;
+                background-color:rgb(20, 20, 20);       
+                border: 3px solid teal;
+            }
+
+            #back:hover {
+                cursor: pointer;
+                animation: submit-hover 0.35s ease-in;
+                background-color: linen;
+                color: rgb(20, 20, 20);
+            }
+
+            #back:active {
+                background-color: gray;
+            }
+
+            @keyframes submit-hover {
+                0% {
+                    background-color: rgb(20, 20, 20);
+                    color: linen;
+                }
+
+                100% {
+                    background-color: linen;
+                    color: rgb(20, 20, 20);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main">
+            <p>Registration Successful!</p>
+            <a href="index.html"><button type="button" id="back">Go back</button></a>
+        </div>
+    </body>
+</html>
