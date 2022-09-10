@@ -8,5 +8,5 @@ to perform SQL query via `mysqli_query` to insert an entry into the database bas
 
 If the username already exists, the script will redirect the browser to `user-exists.html`. If an error is 
 encountered after the query, the script will redirect the browser to `error.html`. Conversely, 
-`register-success.html` is shown to tell the user that registration has been successful or, specifically,
-the entered username and password are successfully inserted into the database.
+`register-success.html` is shown in the browser to tell the user that registration has been successful or, 
+specifically, the entered username and password have been successfully inserted into the database.
