@@ -23,9 +23,9 @@
 
             //evaluate result
             if($result==true) {
-                include "register-success.html";
+                header("Location: register-success.html");
             } else {
-                include "error.html";
+                header("Location: error.html");
             }
         } else {
             include "user-exists.html";
